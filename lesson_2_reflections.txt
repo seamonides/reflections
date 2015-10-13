@@ -13,3 +13,14 @@ I can add one file to staging area and commit it with proper comment.
 Than can add another file and do the same thing again. 
 By using git diff and git diff --staged I can control what was saved and what didn't.
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches give a possibility to investigate another way of solve problems that are done in 'master' version of our project. Or we can try to add some new feature but we are not sure wheter it will improve existing program or not. Using new branch or branches gives the possibility to do this without danger that the 'master' code will be 'broken'.
+
+How do the diagrams help you visualize the branch structure?
+
+They show quite easily the relations between the commits that were made and the different path that I choose to develope the code.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+When we merge two branches together as a result it creates one branch again with modifications coming from both of them. In log we can see changes added in both branches but without knowledge in what branch it was. That is why do not see the two branches any more but one with more number of commits.
