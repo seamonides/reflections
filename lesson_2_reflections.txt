@@ -24,3 +24,7 @@ They show quite easily the relations between the commits that were made and the 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 When we merge two branches together as a result it creates one branch again with modifications coming from both of them. In log we can see changes added in both branches but without knowledge in what branch it was. That is why do not see the two branches any more but one with more number of commits.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+It is faster but sometimes You can lose control on what is happening with You project. On the other hand Git's merging was pretty nice implemented and after some time with git it can really speed up Your work and make You feel comfortable with making changes.
